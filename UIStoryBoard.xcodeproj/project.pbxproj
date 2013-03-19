@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96D96F8116F7BBF1006C6F6F /* CustomSegues.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D96F8016F7BBF1006C6F6F /* CustomSegues.m */; };
+		96D96F8416F7BC10006C6F6F /* SegueRetainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D96F8316F7BC10006C6F6F /* SegueRetainViewController.m */; };
+		96D96F8616F7C1DC006C6F6F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 96D96F8516F7C1DC006C6F6F /* Default-568h@2x.png */; };
+		96D96F8816F840DA006C6F6F /* icon57.png in Resources */ = {isa = PBXBuildFile; fileRef = 96D96F8716F840DA006C6F6F /* icon57.png */; };
+		96EFC3C8155BD11200C98E8E /* DetailsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96EFC3C7155BD11200C98E8E /* DetailsController.m */; };
+		96F66D48155BB2CA009A0623 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96F66D47155BB2CA009A0623 /* UIKit.framework */; };
+		96F66D4A155BB2CA009A0623 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96F66D49155BB2CA009A0623 /* Foundation.framework */; };
+		96F66D4C155BB2CA009A0623 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96F66D4B155BB2CA009A0623 /* CoreGraphics.framework */; };
+		96F66D52155BB2CA009A0623 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 96F66D50155BB2CA009A0623 /* InfoPlist.strings */; };
+		96F66D54155BB2CA009A0623 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F66D53155BB2CA009A0623 /* main.m */; };
+		96F66D5B155BB2CA009A0623 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96F66D59155BB2CA009A0623 /* MainStoryboard.storyboard */; };
+		96F66D5E155BB2CA009A0623 /* DrillTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F66D5D155BB2CA009A0623 /* DrillTableController.m */; };
+		96F66D65155BB472009A0623 /* ItemList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 96F66D64155BB472009A0623 /* ItemList.plist */; };
+		96F66D68155BBFED009A0623 /* DrillNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F66D67155BBFED009A0623 /* DrillNavController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		96D96F7F16F7BBF1006C6F6F /* CustomSegues.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomSegues.h; sourceTree = "<group>"; };
+		96D96F8016F7BBF1006C6F6F /* CustomSegues.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomSegues.m; sourceTree = "<group>"; };
+		96D96F8216F7BC10006C6F6F /* SegueRetainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegueRetainViewController.h; sourceTree = "<group>"; };
+		96D96F8316F7BC10006C6F6F /* SegueRetainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegueRetainViewController.m; sourceTree = "<group>"; };
+		96D96F8516F7C1DC006C6F6F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = SOURCE_ROOT; };
+		96D96F8716F840DA006C6F6F /* icon57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon57.png; sourceTree = "<group>"; };
+		96EFC3C6155BD11200C98E8E /* DetailsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsController.h; sourceTree = "<group>"; };
+		96EFC3C7155BD11200C98E8E /* DetailsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsController.m; sourceTree = "<group>"; };
+		96F66D43155BB2CA009A0623 /* UIStoryBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIStoryBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96F66D47155BB2CA009A0623 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		96F66D49155BB2CA009A0623 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		96F66D4B155BB2CA009A0623 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		96F66D4F155BB2CA009A0623 /* UIStoryBoardDrillDown-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIStoryBoardDrillDown-Info.plist"; sourceTree = "<group>"; };
+		96F66D51155BB2CA009A0623 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		96F66D53155BB2CA009A0623 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		96F66D55155BB2CA009A0623 /* UIStoryBoardDrillDown-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIStoryBoardDrillDown-Prefix.pch"; sourceTree = "<group>"; };
+		96F66D5A155BB2CA009A0623 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		96F66D5C155BB2CA009A0623 /* DrillTableController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrillTableController.h; sourceTree = "<group>"; };
+		96F66D5D155BB2CA009A0623 /* DrillTableController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrillTableController.m; sourceTree = "<group>"; };
+		96F66D64155BB472009A0623 /* ItemList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ItemList.plist; sourceTree = "<group>"; };
+		96F66D66155BBFED009A0623 /* DrillNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrillNavController.h; sourceTree = "<group>"; };
+		96F66D67155BBFED009A0623 /* DrillNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrillNavController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96F66D40155BB2CA009A0623 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96F66D48155BB2CA009A0623 /* UIKit.framework in Frameworks */,
+				96F66D4A155BB2CA009A0623 /* Foundation.framework in Frameworks */,
+				96F66D4C155BB2CA009A0623 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96D96F7E16F7BBF1006C6F6F /* UIStoryboardSegues */ = {
+			isa = PBXGroup;
+			children = (
+				96D96F7F16F7BBF1006C6F6F /* CustomSegues.h */,
+				96D96F8016F7BBF1006C6F6F /* CustomSegues.m */,
+				96D96F8216F7BC10006C6F6F /* SegueRetainViewController.h */,
+				96D96F8316F7BC10006C6F6F /* SegueRetainViewController.m */,
+			);
+			path = UIStoryboardSegues;
+			sourceTree = "<group>";
+		};
+		96F66D38155BB2CA009A0623 = {
+			isa = PBXGroup;
+			children = (
+				96D96F8716F840DA006C6F6F /* icon57.png */,
+				96F66D59155BB2CA009A0623 /* MainStoryboard.storyboard */,
+				96F66D4E155BB2CA009A0623 /* Supporting Files */,
+				96F66D4D155BB2CA009A0623 /* UIStoryBoardDrillDown */,
+				96D96F7E16F7BBF1006C6F6F /* UIStoryboardSegues */,
+				96F66D46155BB2CA009A0623 /* Frameworks */,
+				96F66D44155BB2CA009A0623 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96F66D44155BB2CA009A0623 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96F66D43155BB2CA009A0623 /* UIStoryBoard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96F66D46155BB2CA009A0623 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96F66D47155BB2CA009A0623 /* UIKit.framework */,
+				96F66D49155BB2CA009A0623 /* Foundation.framework */,
+				96F66D4B155BB2CA009A0623 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		96F66D4D155BB2CA009A0623 /* UIStoryBoardDrillDown */ = {
+			isa = PBXGroup;
+			children = (
+				96F66D64155BB472009A0623 /* ItemList.plist */,
+				96F66D66155BBFED009A0623 /* DrillNavController.h */,
+				96F66D67155BBFED009A0623 /* DrillNavController.m */,
+				96F66D5C155BB2CA009A0623 /* DrillTableController.h */,
+				96F66D5D155BB2CA009A0623 /* DrillTableController.m */,
+				96EFC3C6155BD11200C98E8E /* DetailsController.h */,
+				96EFC3C7155BD11200C98E8E /* DetailsController.m */,
+			);
+			path = UIStoryBoardDrillDown;
+			sourceTree = "<group>";
+		};
+		96F66D4E155BB2CA009A0623 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				96F66D4F155BB2CA009A0623 /* UIStoryBoardDrillDown-Info.plist */,
+				96F66D50155BB2CA009A0623 /* InfoPlist.strings */,
+				96F66D53155BB2CA009A0623 /* main.m */,
+				96F66D55155BB2CA009A0623 /* UIStoryBoardDrillDown-Prefix.pch */,
+				96D96F8516F7C1DC006C6F6F /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			path = UIStoryBoardDrillDown;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96F66D42155BB2CA009A0623 /* UIStoryBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96F66D61155BB2CA009A0623 /* Build configuration list for PBXNativeTarget "UIStoryBoard" */;
+			buildPhases = (
+				96F66D3F155BB2CA009A0623 /* Sources */,
+				96F66D40155BB2CA009A0623 /* Frameworks */,
+				96F66D41155BB2CA009A0623 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIStoryBoard;
+			productName = UIStoryBoardDrillDown;
+			productReference = 96F66D43155BB2CA009A0623 /* UIStoryBoard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96F66D3A155BB2CA009A0623 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Stellar Online LLC";
+			};
+			buildConfigurationList = 96F66D3D155BB2CA009A0623 /* Build configuration list for PBXProject "UIStoryBoard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 96F66D38155BB2CA009A0623;
+			productRefGroup = 96F66D44155BB2CA009A0623 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96F66D42155BB2CA009A0623 /* UIStoryBoard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96F66D41155BB2CA009A0623 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96F66D52155BB2CA009A0623 /* InfoPlist.strings in Resources */,
+				96F66D5B155BB2CA009A0623 /* MainStoryboard.storyboard in Resources */,
+				96F66D65155BB472009A0623 /* ItemList.plist in Resources */,
+				96D96F8616F7C1DC006C6F6F /* Default-568h@2x.png in Resources */,
+				96D96F8816F840DA006C6F6F /* icon57.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96F66D3F155BB2CA009A0623 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96F66D54155BB2CA009A0623 /* main.m in Sources */,
+				96F66D5E155BB2CA009A0623 /* DrillTableController.m in Sources */,
+				96F66D68155BBFED009A0623 /* DrillNavController.m in Sources */,
+				96EFC3C8155BD11200C98E8E /* DetailsController.m in Sources */,
+				96D96F8116F7BBF1006C6F6F /* CustomSegues.m in Sources */,
+				96D96F8416F7BC10006C6F6F /* SegueRetainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		96F66D50155BB2CA009A0623 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96F66D51155BB2CA009A0623 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		96F66D59155BB2CA009A0623 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96F66D5A155BB2CA009A0623 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			path = UIStoryBoardDrillDown;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		96F66D5F155BB2CA009A0623 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		96F66D60155BB2CA009A0623 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96F66D62155BB2CA009A0623 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIStoryBoardDrillDown/UIStoryBoardDrillDown-Prefix.pch";
+				INFOPLIST_FILE = "UIStoryBoardDrillDown/UIStoryBoardDrillDown-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = UIStoryBoard;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		96F66D63155BB2CA009A0623 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIStoryBoardDrillDown/UIStoryBoardDrillDown-Prefix.pch";
+				INFOPLIST_FILE = "UIStoryBoardDrillDown/UIStoryBoardDrillDown-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = UIStoryBoard;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96F66D3D155BB2CA009A0623 /* Build configuration list for PBXProject "UIStoryBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96F66D5F155BB2CA009A0623 /* Debug */,
+				96F66D60155BB2CA009A0623 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96F66D61155BB2CA009A0623 /* Build configuration list for PBXNativeTarget "UIStoryBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96F66D62155BB2CA009A0623 /* Debug */,
+				96F66D63155BB2CA009A0623 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96F66D3A155BB2CA009A0623 /* Project object */;
+}
